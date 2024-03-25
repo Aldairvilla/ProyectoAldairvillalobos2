@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: white !important;
+}
+
+.entrada {
+  color: black;
+  text-align: center;
+  height: auto;
+  width: 300px;
+  background-color: white;
+  margin: auto;
+  letter-spacing: 10px;
+  font-size: 20px;
+  vertical-align: center;
+  padding: 100px;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  background-image: url(Media/entrada.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+}
+
+.call h1 {
+  margin: 50px 50px;
+  padding-top: 50px;
+  color: white;
+  width: 50%;
+  height: 10px;
+}
+
+.call p {
+  margin-left: 50px;
+  color: white;
+  width: 50%;
+  height: 50px;
+}
+
+H2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.marg {
+  background-color: black;
+}
+
+.sec1 {
+  height: auto;
+  background: black;
+  color: azure;
+  text-align: center;
+  padding: 30px;
+}
+
+.sec2 {
+  background-image: url(Media/cocinero-vista-lateral-haciendo-deliciosa-pasta.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.sec3 {
+  height: auto;
+  text-align: center;
+  padding-top: 50px;
+  color: azure;
+  background-color: black;
+  padding-bottom: 40px;
+}
+
+.sec4 {
+  height: auto;
+  background: black;
+  color: azure;
+  text-align: center;
+  padding: 30px;
+}
+
+.sec5 {
+  height: auto;
+  text-align: center;
+  padding-top: 50px;
+  color: azure;
+  background-color: black;
+  padding-bottom: 40px;
+}
+
+.sec6 {
+  background-image: url(Media/plato-mariscos-gambas-mejillones-langostas-servidas-limon.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.mapa {
+  display: flex;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  font-size: 20px;
+}
+
+footer p {
+  margin-bottom: 20px;
+}
+
+.redes a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
