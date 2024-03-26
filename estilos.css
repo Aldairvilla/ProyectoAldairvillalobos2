@@ -10,15 +10,23 @@
 
 .entrada {
   color: black;
-  text-align: center;
   height: auto;
   width: 300px;
   background-color: white;
   margin: auto;
-  letter-spacing: 10px;
-  font-size: 20px;
-  vertical-align: center;
-  padding: 100px;
+  margin-top: 50px;
+  letter-spacing: 5px;
+  font-size: 30px;
+  padding: 10px;
+  vertical-align: middle;
+  padding-top: 50px;
+}
+
+.text1 {
+  color: black;
+  font-size: 15px;
+  padding: 0px;
+  letter-spacing: 0px;
 }
 
 main {
@@ -46,23 +54,18 @@ main {
   height: 50px;
 }
 
-H2 {
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 40px;
-}
-
 .marg {
   background-color: black;
 }
 
 .sec1 {
   height: auto;
-  background: black;
-  color: azure;
+  background: white;
+  color: black;
   text-align: center;
   padding: 30px;
+  letter-spacing: 10px;
+  margin: 40px;
 }
 
 .sec2 {
@@ -76,33 +79,34 @@ H2 {
   height: auto;
   text-align: center;
   padding-top: 50px;
-  color: azure;
-  background-color: black;
+  color: black;
+  background-color: white;
   padding-bottom: 40px;
 }
 
 .sec4 {
-  height: auto;
-  background: black;
-  color: azure;
+  height: 100px;
+  background: white;
+  color: black;
   text-align: center;
-  padding: 30px;
+  padding-top: 100px;
+  letter-spacing: 10px;
 }
 
 .sec5 {
   height: auto;
   text-align: center;
   padding-top: 50px;
-  color: azure;
-  background-color: black;
-  padding-bottom: 40px;
+  color: black;
+  background-color: white;
+  padding: 100px;
+  vertical-align: center;
 }
 
-.sec6 {
-  background-image: url(Media/plato-mariscos-gambas-mejillones-langostas-servidas-limon.jpg);
-  background-size: cover;
-  background-position: center;
+.carousel-item {
   height: 400px;
+  background-position: center;
+  background-size: cover;
 }
 
 .mapa {
@@ -125,6 +129,4 @@ footer p {
   text-decoration: none;
   color: white;
   font-size: 20px;
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
