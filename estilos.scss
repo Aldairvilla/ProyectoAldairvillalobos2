@@ -6,6 +6,7 @@
 
 $color1: white;
 $color2: black;
+$titulo: 'Times New Roman', Times, serif;
 
 .navbar{
     background-color: $color1 !important ;
@@ -23,6 +24,7 @@ $color2: black;
         padding: 10px;
         vertical-align:middle;
         padding-top: 50px;
+        font-family: $titulo;
     
 }
 .text1{
@@ -45,27 +47,6 @@ main{
 }
 
 
-.call h1{
-    margin: 50px 50px;
-    padding-top: 50px;
-    color: $color1;
-    width: 50%;
-    height: 10px;
-}
-
-
-.call p{
-    margin-left: 50px;
-    color: $color1;
-    width: 50%;
-    height: 50px;
-}
-
-
-.marg{
-    background-color: black;
-}
-
 .sec1{
     height: auto;
     background: $color1;
@@ -74,6 +55,7 @@ main{
     padding: 30px;
     letter-spacing: 10px;
     margin: 40px;
+    font-family: $titulo;
 }
 
 .sec2{
